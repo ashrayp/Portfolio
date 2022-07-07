@@ -1,0 +1,242 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* navigation */
+
+.big-wrapper{
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("../images/Picsart_22-03-31_09-33-53-816.jpg");
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}    
+
+#orange{
+    background: none;
+    border: 0;
+    
+}
+
+#orange a{
+    color: #fff;
+    font-size: 1rem;
+    position: relative;
+    top: 1rem;
+    
+}
+
+
+
+#mynavbar .square{
+    background: none;
+    color: #fff;
+    background-color: #2b8fc4;
+    border: 0;
+    padding: 0.8;
+}
+
+#orange .navbar-brand{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Banner */
+
+.banner{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.banner h3{
+    font-weight: lighter;
+    
+    
+}
+
+.banner p{
+    color: rgb(196,196,196);
+    line-height: 2rem;
+    
+
+}
+
+.banner .cool{
+    padding: 1rem 2rem;
+    margin: 2.5rem;
+}
+
+
+/* Three-section */
+
+.three-section{
+    background-color: rgb(12,14,15);
+   
+}
+
+.custom-row{
+    padding: 2rem;
+    text-align: center;
+}
+
+.main h3{
+    color: rgb(196,196,196);
+}
+
+.main i{
+    font-size: 3rem;
+    color: #fff;
+    padding: 2rem;
+    
+}
+
+.main p{
+    color: grey;
+    font-size: 1.2rem;
+    
+}
+
+.main .btn{
+    margin: 3rem;
+    
+}
+
+/* Two-portion */
+
+.two-portion{
+    background-color: rgb(16,18,20);
+}
+
+
+.all-part .left img{
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.all-part .left h3{
+     color: rgb(196,196,196);
+     
+} 
+
+.all-part span{
+    text-decoration: underline;
+    color: rgb(196,196,196);
+}
+
+.same{
+    position: relative;
+    left: -13px;
+    
+}
+
+
+.left p{
+    font-size: 1.1rem;
+    color: grey;
+    margin-bottom: 30px;
+    line-height: 20px;
+    
+}
+
+.left h4{
+    color: rgb(196,196,196);
+  
+    font-size: 15px;
+}
+
+.left .same{
+    position: relative;
+    left: -13px;
+    margin-bottom: 10px;
+}
+
+.left .down{
+    margin-bottom: 10px;
+}
+
+
+.left hr, .right hr{
+    background-color: grey;
+    border: 0;
+    height: 1px;
+    
+}
+
+
+.right .way{
+    padding: 10px 0;
+    
+}
+
+
+.way h3{
+    text-align: center;
+    color: rgb(196,196,196);
+    padding: 5px;
+    position: relative;
+    left: -5px;
+    
+}
+
+.right ul li{
+    color: grey;
+    position: relative;
+    left: 13px;
+    font-size: 1.5rem;
+    top: 13px;
+    
+}
+
+.right .mad{
+    position: relative;
+    top: -0.50px;
+}
+
+.help-row h3{
+    color: rgb(196,196,196);
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.big-box{
+    padding: 10px 10px;
+    margin-left: 13px;
+
+}
+
+.big-box h3{
+    margin-bottom: 40px;
+    color: rgb(196,196,196);
+    font-size: 3rem;
+}
+
+.big-box p{
+    color: grey;
+    text-align: left;
+    
+    
+}
+
+/* Media Query */
+
+@media (max-width:992px){
+
+}
+
+
+
+
+
